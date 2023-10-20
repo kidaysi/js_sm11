@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="modal">
+    <div class="modal-form">
+        <div class="wrapper modal-form__wrapper">
+            <h2 class="h2">Добавление новости</h2>
+            <button class="close-button">
+                <img src="assets/img/close.svg" alt="#" class="close-button__img">
+            </button>
+        </div>
+        <input type="text" class="form-elem" id="name" placeholder="Название">
+        <p class="error"></p>
+        <textarea class="form-elem textarea" id="text" placeholder="Текст"></textarea>
+        <p class="error2"></p>
+        <button class="send">Добавить новость</button>
+    </div>
+</div>
+
+
+<header class="header">
+    <div class="container">
+        <a href="" class="link">Github</a><br>
+        <div class="header_content">
+            <h2 class="logo">NTFEPT</h2>
+            <button class="add-button">Добавить новость</button>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <div class="wrapper">
+            <h2 class="h2">Новости</h2>
+        </div>
+        <div class="wrapper news-wrapper" id="news">
+            <div class="news-item">
+                <h3 class="h3">В Башкирии разгадали календари беременности первобытных женщин</h3>
+                <p class="news-item__p">Календари беременности первобытных женщин, а также
+                    бытовавшие в эпоху палеолита знаки рождения и смерти впервые расшифрованы по итогам исследования
+                    рисунков на стенах Каповой пещеры на Южном Урале, сообщил РИА Новости доцент Уфимского университета
+                    науки и технологий Айрат Багаутдинов.
+                </p>
+            </div>
+            <div class="news-item">
+                <h3 class="h3">Летопись на костях</h3>
+                <p class="news-item__p">
+                    Кости динозавров залегают в отложениях мезозойской эры, но обнаружить их можно, только если пласты
+                    выходят на дневную поверхность. Как например, в бедлендах — пустынных территориях, сформированных
+                    эрозией осадочных пород. В поиске помогают геологические карты, на которых обозначены состав,
+                    возраст и простирание горных пород. Иногда в процессе раскопок нужно удалять большие объемы грунта,
+                    каменного материала.
+                </p>
+            </div>
+            <div class="news-item">
+                <h3 class="h3">В Красноярском крае нашли останки морских динозавров</h3>
+                <p class="news-item__p">
+                    Больше всего было найдено останков плезиозавров. В длину они достигали 20 метров. Плавали, используя
+                    сразу четыре ласта, в отличие от современных рептилий.
+                    На севере севере Западно-Сибирского моря, находившегося на месте, где обнаружили останки животных, в
+                    позднемеловое время жили представители двух семейств плезиозавров.
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
